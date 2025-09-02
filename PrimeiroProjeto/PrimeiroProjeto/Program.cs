@@ -13,6 +13,9 @@ namespace PrimeiroProjeto {
             long n4 = 2147483648L;
             float n5 = 4.5f;
             double n6 = 4.5;
+            string nome = "Maria";
+            object obj1 = "Alexandre";
+            object obj2 = 4.5f;
 
             Console.WriteLine(completo);
             Console.WriteLine(genero);
@@ -23,6 +26,11 @@ namespace PrimeiroProjeto {
             Console.WriteLine(n4);
             Console.WriteLine(n5);
             Console.WriteLine(n6);
+            Console.WriteLine(nome);
+            Console.WriteLine(obj1);
+            Console.WriteLine(obj2);
+
+
         }
     }
 } 
