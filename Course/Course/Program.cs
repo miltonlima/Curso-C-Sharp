@@ -19,6 +19,12 @@ namespace Course {
 
             double p = (xA + xB + xC) / 2.0;
             double areaX = Math.Sqrt(p * (p - xA) * (p - xB) * (p - xC));
+
+            p = (yA + yB + yC) / 2.0;
+            double areaY = Math.Sqrt(p * (p - yA) * (p - yB) * (p - yC));
+
+            Console.WriteLine("Área de X = " + areaX.ToString("F4", CultureInfo.InvariantCulture));
+            Console.WriteLine("Área de Y = " + areaY.ToString("F4", CultureInfo.InvariantCulture));
         }
     }
 }
