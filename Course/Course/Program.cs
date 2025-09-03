@@ -5,6 +5,10 @@ namespace Course {
     class Program {
         static void Main(string[] args) {
 
+            for (int i = 0; i < 10; i++) {
+                Console.WriteLine(i);
+            }
+
             double xA, xB, xC, yA, yB, yC;
 
             Console.WriteLine("Entre com as medidas do triângulo X:");
@@ -25,6 +29,12 @@ namespace Course {
 
             Console.WriteLine("Área de X = " + areaX.ToString("F4", CultureInfo.InvariantCulture));
             Console.WriteLine("Área de Y = " + areaY.ToString("F4", CultureInfo.InvariantCulture));
+
+            if (areaX > areaY) {
+                Console.WriteLine("Maior área: X");
+            } else {
+                Console.WriteLine("Maior área: Y");
+            }
         }
     }
 }
