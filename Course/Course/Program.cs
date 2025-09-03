@@ -8,17 +8,20 @@ namespace Course {
             int n2 = int.Parse(Console.ReadLine());
             int n3 = int.Parse(Console.ReadLine());
 
-            if (n1 > n2 && n1 > n3) {
-                Console.WriteLine("Maior = " + n1);
+            double resultado = Maior(n1, n2, n3);
 
-            }
-            else if (n2 > n3) {
-                Console.WriteLine("Maior =" + n2);
+            Console.WriteLine("O maior número é: " + resultado);
+        }
 
+        static int Maior(int a, int b, int c) {
+            int m = a;
+            if (b > m) {
+                m = b;
             }
-            else {
-                Console.WriteLine("Maior = " + n3);
+            if (c > m) {
+                m = c;
             }
+            return m; 
         }
     }
 }
