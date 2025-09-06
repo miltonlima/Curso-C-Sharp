@@ -18,7 +18,7 @@ namespace Course {
             yC = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
 
             double p = (xA + xB + xC) / 2.0;
-            double areaX = Math.Sqrt(p * (p - xA) * (p - xB) * (p - xC));
+            double areaX = Math.Sqrt(p * (p - xA) * (p - xB) * (p - xC2));
         }
     }
 }
