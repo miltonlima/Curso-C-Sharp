@@ -3,24 +3,28 @@ using System.Globalization;
 namespace Course {
     class Program {
         static void Main(string[] args) {
-            Aluno aluno = new Aluno();
-            Console.Write("Nome do aluno: ");
-            aluno.Nome = Console.ReadLine();
-            Console.WriteLine("Digite as três notas do aluno:");
-            aluno.Nota1 = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
-            aluno.Nota2 = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
-            aluno.Nota3 = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
-            Console.WriteLine("NOTA FINAL = "
-            + aluno.NotaFinal().ToString("F2", CultureInfo.InvariantCulture));
-            if (aluno.Aprovado()) {
-                Console.WriteLine("APROVADO");
-            }
-            else {
-                Console.WriteLine("REPROVADO");
-                Console.WriteLine("FALTARAM "
-                + aluno.NotaRestante().ToString("F2", CultureInfo.InvariantCulture)
-                + " PONTOS");
-            }
+            Produto p = new Produto();
+            Console.WriteLine("Entre os dados do produto:");
+            Console.Write("Nome: ");
+            p.Nome = Console.ReadLine();
+            Console.Write("Preço: ");
+            p.Preco = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+            Console.Write("Quantidade no estoque: ");
+            p.Quantidade = int.Parse(Console.ReadLine());
+            Console.WriteLine();
+            Console.WriteLine("Dados do produto: " + p);
+            Console.WriteLine();
+            Console.Write("Digite o número de produtos a ser adicionado ao estoque: ");
+            int qte = int.Parse(Console.ReadLine());
+            p.AdicionarProdutos(qte);
+            Console.WriteLine();
+            Console.WriteLine("Dados atualizados: " + p);
+            Console.WriteLine();
+            Console.Write("Digite o número de produtos a ser removido do estoque: ");
+            qte = int.Parse(Console.ReadLine());
+            p.RemoverProdutos(qte);
+            Console.WriteLine();
+            Console.WriteLine("Dados atualizados: " + p);
         }
     }
 }
