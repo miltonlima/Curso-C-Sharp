@@ -1,0 +1,17 @@
+C:\temp\curso-c-sharp\PrimeiroProjeto\PrimeiroProjeto\bin\Release\net6.0\PrimeiroProjeto.exe
+C:\temp\curso-c-sharp\PrimeiroProjeto\PrimeiroProjeto\bin\Release\net6.0\PrimeiroProjeto.deps.json
+C:\temp\curso-c-sharp\PrimeiroProjeto\PrimeiroProjeto\bin\Release\net6.0\PrimeiroProjeto.runtimeconfig.json
+C:\temp\curso-c-sharp\PrimeiroProjeto\PrimeiroProjeto\bin\Release\net6.0\PrimeiroProjeto.dll
+C:\temp\curso-c-sharp\PrimeiroProjeto\PrimeiroProjeto\bin\Release\net6.0\PrimeiroProjeto.pdb
+C:\temp\curso-c-sharp\PrimeiroProjeto\PrimeiroProjeto\obj\Release\net6.0\PrimeiroProjeto.Properties.Resources.resources
+C:\temp\curso-c-sharp\PrimeiroProjeto\PrimeiroProjeto\obj\Release\net6.0\PrimeiroProjeto.csproj.GenerateResource.cache
+C:\temp\curso-c-sharp\PrimeiroProjeto\PrimeiroProjeto\obj\Release\net6.0\PrimeiroProjeto.GeneratedMSBuildEditorConfig.editorconfig
+C:\temp\curso-c-sharp\PrimeiroProjeto\PrimeiroProjeto\obj\Release\net6.0\PrimeiroProjeto.AssemblyInfoInputs.cache
+C:\temp\curso-c-sharp\PrimeiroProjeto\PrimeiroProjeto\obj\Release\net6.0\PrimeiroProjeto.AssemblyInfo.cs
+C:\temp\curso-c-sharp\PrimeiroProjeto\PrimeiroProjeto\obj\Release\net6.0\PrimeiroProjeto.csproj.CoreCompileInputs.cache
+C:\temp\curso-c-sharp\PrimeiroProjeto\PrimeiroProjeto\obj\Release\net6.0\PrimeiroProjeto.sourcelink.json
+C:\temp\curso-c-sharp\PrimeiroProjeto\PrimeiroProjeto\obj\Release\net6.0\PrimeiroProjeto.dll
+C:\temp\curso-c-sharp\PrimeiroProjeto\PrimeiroProjeto\obj\Release\net6.0\refint\PrimeiroProjeto.dll
+C:\temp\curso-c-sharp\PrimeiroProjeto\PrimeiroProjeto\obj\Release\net6.0\PrimeiroProjeto.pdb
+C:\temp\curso-c-sharp\PrimeiroProjeto\PrimeiroProjeto\obj\Release\net6.0\PrimeiroProjeto.genruntimeconfig.cache
+C:\temp\curso-c-sharp\PrimeiroProjeto\PrimeiroProjeto\obj\Release\net6.0\ref\PrimeiroProjeto.dll
